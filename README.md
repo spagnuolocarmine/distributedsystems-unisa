@@ -1,4 +1,4 @@
-# Architetture Distribuite per il Cloud (ADC) 🐌 Università degli Studi di Salerno - Class 2020/2021
+# Architetture Distribuite per il Cloud (ADC) @ Università degli Studi di Salerno - Class 2020/2021
 
 
 ### Referents
