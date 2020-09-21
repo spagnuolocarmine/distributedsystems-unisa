@@ -6,12 +6,12 @@
 - Prof. Gennaro Cordasco  (Peer-to-Peer Networks).
 - Ph.D. Carmine Spagnuolo (Laboratory).
 
-## Homeworks Solution Design Requirements
+## Homework Solution Design Requirements
 
 Projects must be developed using Java languages (also, using [Apache Maven](https://maven.apache.org/) as software project management) and [TomP2P](https://tomp2p.net/) framework/library.
 TomP2P is a DHT with additional features, such as storing multiple values for a key. Each peer has a table (either disk-based or memory-based) to keep its values. A single value can be queried/updated with a secondary key. The underlying communication framework uses Java NIO to handle many concurrent connections.
 
-## Homeworks Prerequisites
+## Homework Prerequisites
 
 - Concurrent and Object-oriented programming fundamentals (Threads and Observer patterns are required).
 - Distributed System fundamental (Distributed Hash Tables, DHT is required).
@@ -21,7 +21,7 @@ TomP2P is a DHT with additional features, such as storing multiple values for a 
 
 ## Homework Evaluation Criteria
 
-Homeworks are evaluated on a range of 30 total points. The final score is diveded in four level:
+Homework are evaluated on a range of 30 total points. The final score is diveded in four level:
 
 - **A** [30-28]
 - **B** [27-25]
@@ -37,7 +37,7 @@ Homeworks are evaluated on a range of 30 total points. The final score is divede
 - **Tools**. 0 to 5 points. Correct use of Maven and JUnit.
 - **Lateness**. The total score is decreased by 5% each day, until 40% eight days or more late. The delay time will be computed starting from the date **official exam date**.
 
-## Homeworks
+## Homework Lists
 
 Each homework is presented with a Java interface API that must be implemented by a solution (the API is available in the folder challenges).
 
@@ -57,7 +57,7 @@ $ docker run -i -e MASTERIP="127.0.0.1" -e ID=0 homework-docker --name MASTER-PE
 $ docker run -i -e MASTERIP="172.17.0.2" -e ID=1 homework-docker --name GENERIC-PEER
 ```
 
-## Homeworks Descriptions
+## Homework Descriptions
 
 ### 1 Anonymous Chat
 
@@ -182,12 +182,12 @@ Characters table conversion (use case insentive):
 
 ## ⚠️ Homework Submission 
 
-- Submission Process
-    - Create a new repository on your GitHub profile.
+- Submission Process ⬇️
+    - 🗄️ Create a new repository on your GitHub profile.
       - ```repository_name``` = ```name_surname_adc_2020```
-    - Design your repository using the same project's structure of [example project](https://github.com/spagnuolocarmine/p2ppublishsubscribe).
-    - ```README.md``` must contain a description of your repository and your solution (will be evaluated).
-    - Send a mail to cspagnuolo+ADC2020@unisa.it before the exam date (official ESSE3).
+    - 📝 Design your repository using the same project's structure of [example project](https://github.com/spagnuolocarmine/p2ppublishsubscribe).
+    - 📘 ```README.md``` must contain a description of your repository and your solution (will be evaluated).
+    - 📧 Send a mail to cspagnuolo+ADC2020@unisa.it before the exam date (official ESSE3) and writing in the object's mail your name and the exam date (e.g., Alice Wonderland 01/01/2021). **Please be sure that you follow this instruction**
 
 ### Homework TIPS 🎳
 
