@@ -11,11 +11,11 @@
 - Join our Discord ISISLab' community to be supported in your homework.
   -   [![w:300](https://img.shields.io/badge/Discord-%23adc-7289da.svg?style=flat-square&logo=discord)](https://discord.gg/BTt5fUp) (classes category).
   -   When you enter in our server, please write to Carmine Spagnuolo for asking a Master Student role (this will ensure you to access to the channels, is required).
-- **Calendar:**
-  - 📅 29/09/2020 Virtualization technologies: Containers and Docker 🐋 
-  - 📅 06/10/2020 Peer-to-peer technologies: TomP2P, a P2P-based key-value pair storage library
-  - 📅 13/10/2020 Homework presentation, and development technologies (Maven and GitHub).
-  - 📅 27/09/2020 We will meet in ```#adc``` channel each Tuesday (14:00-16:00) for discussions about the homework development.
+- **Schedule 📅**
+  - 29/09/2020 Virtualization technologies: Containers and Docker 🐋 
+  - 06/10/2020 Peer-to-peer technologies: TomP2P, a P2P-based key-value pair storage library
+  - 13/10/2020 Homework presentation, and development technologies (Maven and GitHub).
+  - 27/09/2020 We will meet in ```#adc``` channel each Tuesday (14:00-16:00) for discussions about the homework development.
 
 
 ##  Homework
