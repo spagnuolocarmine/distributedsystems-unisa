@@ -6,7 +6,7 @@
 - Prof. Gennaro Cordasco  (Peer-to-Peer Networks).
 - Ph.D. Carmine Spagnuolo (Laboratory).
 
-### Labs organization
+### Online labs organization
 
 - Join our Discord ISISLab' community to be supported in your homework.
   -   [![w:300](https://img.shields.io/badge/Discord-%23adc-7289da.svg?style=flat-square&logo=discord)](https://discord.gg/BTt5fUp) (classes category).
@@ -58,11 +58,11 @@ Each homework is presented with a Java interface API that must be implemented by
 Five projects to be developed on a P2P Network:
 
 - *Publish/Subscribe Protocol* ([example project](https://github.com/spagnuolocarmine/p2ppublishsubscribe))
-- *Anonymous Chat*
-- *Git Protocol*
-- *Auction Mechanism*
-- *Sudoku Game*
-- *Semantics Harmony Social Network*
+- 1. *Anonymous Chat*
+- 2. *Git Protocol*
+- 3. *Auction Mechanism*
+- 4. *Sudoku Game*
+- 5. *Semantics Harmony Social Network*
 
 Each project must also be deployed on a Docker container that allows the users to execute the application peer quickly. The application parameters can be easily managed using the Docker environment variables. The project **must** provide a command-line interface that exploits all functionalities developed and tested.
 
@@ -177,11 +177,9 @@ Using Maven, you can add the dependencies to TomP2P in the pom.xml file.
 
 ### Give me Homework now!
  
-Compute the MD5 of your carminespagnuolo,namesurname ```md5(namesurname)```:
+Compute the MD5 of your carminespagnuolo,namesurname ```md5(namesurname-D)```, where _namesurname_ is your Name and Surname concatenation, and D is birthday day (only the first number **01**/01/2020).
 
-- the first character in the MD5 is the homework.
-
-Characters table conversion (use case insentive):
+- The first character in the [MD5](https://www.md5online.org/) is your homework index, according the following conversion table (use case insentive):
 
 | Character |Value|
 |---|---|
@@ -191,7 +189,7 @@ Characters table conversion (use case insentive):
 |d-j-p-v-x-1-7|4|
 |e-k-q-w-3-2-8-9|5|
 
-**Example**  Team Wonderland, team member Alice your assignment is _wonderlandalice_, ```md5(wonderlandalice)=6b765adf84f3c4341e8aab77ceda3bf1```, that is solve the _Auction Mechanism_.
+**Example**  Team Wonderland, team member Alice your assignment is _wonderlandalice31_, ```md5(wonderlandalice31)=cce384455fc37671fb467c3f5d43e560```, that is solve the _Auction Mechanism_.
 
 
 ## ⚠️ Homework Submission 
@@ -205,7 +203,7 @@ Characters table conversion (use case insentive):
 
 ### Homework TIPS 🎳
 
-Solutions must be a Java Maven project that implements the problem API and includes, at minimum, one test case written using JUnit (unit test case for Java). Each project must consist of a README file, written in Markdown, in the project's root. The README describes the faced project, briefly the project members' solution, and eventually test cases.
+Solutions must be a Java Maven project that implements the problem API and includes, at minimum, one test case written using JUnit (unit test case for Java). Each project must consist of a README file, written in Markdown, in the project's root. The README describes the faced project, briefly the project solution, and eventually test cases.
 
 The _test case_ must instantiate the network (with a minimum of four peers) and simulates all operations described in the problem description. Solutions that fail the test cases or do not test all features are considered NOT CORRECT and are evaluated, considering that they cannot have the maximum score. 
 
