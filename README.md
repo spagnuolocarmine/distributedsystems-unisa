@@ -1,13 +1,13 @@
 # Architetture Distribuite per il Cloud (ADC) @ Università degli Studi di Salerno - Class 2020/2021
 
+Please visit the [https://spagnuolocarmine.github.io/adc-20-21](https://spagnuolocarmine.github.io/adc-20-21.html).
 
+<!--
 ### Referents
 - Prof. Alberto Negro (Fundamentals and Algorithms for Distributed Systems).
 - Prof. Gennaro Cordasco  (Peer-to-Peer Networks).
 - Ph.D. Carmine Spagnuolo (Laboratory).
-
 ### Online labs organization
-
 - Join our Discord ISISLab' community to be supported in your homework.
   -   [![w:300](https://img.shields.io/badge/Discord-%23adc-7289da.svg?style=flat-square&logo=discord)](https://discord.gg/BTt5fUp) (classes category).
   -   When you enter in our server, please write to Carmine Spagnuolo for asking a Master Student role (this will ensure you to access to the channels, is required).
@@ -16,95 +16,60 @@
   - 06/10/2020 Peer-to-peer technologies: TomP2P, a P2P-based key-value pair storage library
   - 13/10/2020 Homework presentation, and development technologies (Maven and GitHub).
   - 27/09/2020 We will meet in ```#adc``` channel each Tuesday (14:00-16:00) for discussions about the homework development.
-
-
 ##  Homework
-
 ### Design your solution
-
 Projects must be developed using Java languages (also, using [Apache Maven](https://maven.apache.org/) as software project management) and [TomP2P](https://tomp2p.net/) framework/library.
 TomP2P is a DHT with additional features, such as storing multiple values for a key. Each peer has a table (either disk-based or memory-based) to keep its values. A single value can be queried/updated with a secondary key. The underlying communication framework uses Java NIO to handle many concurrent connections.
-
 ### Prerequisites
-
 - Concurrent and Object-oriented programming fundamentals (Threads and Observer patterns are required).
 - Distributed System fundamental (Distributed Hash Tables, DHT is required).
 - Java 7 or greater.
 - Apache Maven.
 - Eclipse (optional).
-
 ### Evaluation criteria
-
 Homework are evaluated on a range of 30 total points. The final score is diveded in four level:
-
 - **A** [30-28]
 - **B** [27-25]
 - **C** [24-22]
 - **D** [21-18]
-
 #### Scores
-
 - **Correctness**. 0 to 10 points. It measures the group's commitment to developing a compliant solution with the problem requirement (obviously!). But also a solution that solves part of the problem can be evaluated if it is clear that only a minor part of the problem is not correctly solved.
 - **Style**. 0 to 5 points. It measures the group's commitment to developing a solution, styling it, and exploiting all TomP2P and Java 7 or greater features, paying attention to using the fundamental part and DHT arguments.
 - **Innovation**. 0 to 5 points. It measures the group's commitment to developing additional features to provide more similar applications to real ones.
 - **Dockerization**. 0 to 5 points. It measures the group's commitment to dockerizing the application (converting the application solution to run within a Docker container). Will be evaluated the application usability and the Docker features exploited.
 - **Tools**. 0 to 5 points. Correct use of Maven and JUnit.
 - **Lateness**. The total score is decreased by 5% each day, until 40% eight days or more late. The delay time will be computed starting from the date **official exam date**.
-
 ### Homework list
-
 Each homework is presented with a Java interface API that must be implemented by a solution (the API is available in the folder challenges).
-
 Five projects to be developed on a P2P Network:
-
 - *Publish/Subscribe Protocol* ([example project](https://github.com/spagnuolocarmine/p2ppublishsubscribe))
 - 1. *Anonymous Chat*
 - 2. *Git Protocol*
 - 3. *Auction Mechanism*
 - 4. *Sudoku Game*
 - 5. *Semantics Harmony Social Network*
-
 Each project must also be deployed on a Docker container that allows the users to execute the application peer quickly. The application parameters can be easily managed using the Docker environment variables. The project **must** provide a command-line interface that exploits all functionalities developed and tested.
-
 ```
 $ docker run -i -e MASTERIP="127.0.0.1" -e ID=0 homework-docker --name MASTER-PEER
 $ docker run -i -e MASTERIP="172.17.0.2" -e ID=1 homework-docker --name GENERIC-PEER
 ```
-
 ### Homework Descriptions
-
 #### 1 Anonymous Chat
-
 <img align="right" src=https://s3.amazonaws.com/lowres.cartoonstock.com/telecommunications-chatting-chatroom-chatting_over_the_fence-neighbour-gossip-gri0032_low.jpg width="300"/>
-
 Design and develop an anonymous chat API based on P2P Network. Each peer can send messages on a public chat room in an anonymous way. The system allows the users to create a new room, join in a room, leave a room, and send messages. As described in the [AnonymousChat Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/AnonymousChat.java).
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 ### 2 Git Protocol
-
 <img align="left" src= https://i2.wp.com/makingbones.files.wordpress.com/2013/02/picture12.jpg width="300"/>
-
 Design and develop the Git protocol, distributed versioning control on a P2P network. Each peer can manage its projects (a set of files) using the Git protocol (a minimal version). The system allows the users to create a new repository in a specific folder, add new files to be tracked by the system, apply the changing on the local repository (commit function), push the network's changes, and pull the changing from the network. The git protocol has lot-specific behavior to manage the conflicts; in this version, it is only required that if there are some conflicts, the systems can download the remote copy, and the merge is manually done. As described in the [GitProtocol Java API](https://github.com/spagnuolocarmine/distributedsystems/blob/master/challenges/GitProtocol.java).
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
-
 &nbsp;
 
 
@@ -206,4 +171,4 @@ Compute the MD5 of your carminespagnuolo,namesurname ```md5(namesurname-D)```, w
 Solutions must be a Java Maven project that implements the problem API and includes, at minimum, one test case written using JUnit (unit test case for Java). Each project must consist of a README file, written in Markdown, in the project's root. The README describes the faced project, briefly the project solution, and eventually test cases.
 
 The _test case_ must instantiate the network (with a minimum of four peers) and simulates all operations described in the problem description. Solutions that fail the test cases or do not test all features are considered NOT CORRECT and are evaluated, considering that they cannot have the maximum score. 
-
+--!>
