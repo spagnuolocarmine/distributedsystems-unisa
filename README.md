@@ -1,8 +1,9 @@
-# Architetture Distribuite per il Cloud (ADC) @ Università degli Studi di Salerno - Class 2020/2021
+# Architetture Distribuite per il Cloud (ADC) @ Università degli Studi di Salerno 
 
-Please visit the [https://spagnuolocarmine.github.io/adc-20-21](https://spagnuolocarmine.github.io/adc-20-21.html).
 
 <!--
+Please visit the [https://spagnuolocarmine.github.io/adc-20-21](https://spagnuolocarmine.github.io/adc-20-21.html).
+
 ### Referents
 - Prof. Alberto Negro (Fundamentals and Algorithms for Distributed Systems).
 - Prof. Gennaro Cordasco  (Peer-to-Peer Networks).
